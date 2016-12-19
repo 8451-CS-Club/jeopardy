@@ -1,6 +1,21 @@
 # flask-web-template
 A standard template we can use as a starting point for any web based projects we decide to use.
 
+##Usage
+To use this repo as the starting point for a new project, follow these steps:
+
+1) clone this repository: `git clone git@github.com:8451-CS-Club/flask-web-template.git new_project`
+
+2) cd to new repo: `cd new_project`
+
+3) remove the origin: `git remote rm origin`
+
+4) Create the new project on GitHub's site
+
+5) add the new origin: `git remote add origin git@github.com:8451-CS-Club/new-project.git`
+
+6) now you can run: `git push origin master` and it will update the project
+
 
 Here's a quick breakdown for flask projects for those who are interested in learning more.
 
