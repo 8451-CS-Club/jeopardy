@@ -21,6 +21,7 @@ Here's a quick breakdown for flask projects for those who are interested in lear
 
 ##run.py
 Execute this file to actually run the website locally. You can either navigate to the directory it's in and run `python run.py`, or run it from an IDE.
+To view the site externally, `cd` into the current repository and execute `flask run --host=0.0.0.0`.
 
 ##app
 A high level directory where most of the projects code will live under.
