@@ -1,0 +1,29 @@
+html {
+  background-color: #060CE9;
+  color: white;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 300%;
+}
+
+th {
+
+}
+
+td {
+  text-align: center;
+  color: #ffd700;
+  font-size: 200%;
+}
+
+table {
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  border-color: #ffd700;
+}
