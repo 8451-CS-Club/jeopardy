@@ -22,73 +22,13 @@
 
 {% block content %}
 <body>
-  <h1>Jeopardy!</h1>
-  <table border="1">
-    <tr>
-      <th>TITLE 1</th>
-      <th>TITLE 2</th>
-      <th>TITLE 3</th>
-      <th>TITLE 4</th>
-      <th>TITLE 5</th>
-      <th>TITLE 6</th>
-    </tr>
-    <tr>
-      <td><a href="" data-toggle="modal" data-target="#question1"> $200</a></td>
-
-      <div class="modal fade" id="question1" role="dialog">
-        <div class="modal-dialog">
-          <!-- Question 1 -->
-          <div class="modal-content">
-            <div class="modal-header">
-            </div>
-            <div class="modal-body">
-              <h2>Category: 'category data'</h2>
-              <h2>Question: 'question data'</h2>
-              <p>Answer:</p><input>
-              <button type="button" data-dismiss="modal">Submit</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <td>$200</td>
-      <td>$200</td>
-      <td>$200</td>
-      <td>$200</td>
-      <td>$200</td>
-    </tr>
-    <tr>
-      <td>$400</td>
-      <td>$400</td>
-      <td>$400</td>
-      <td>$400</td>
-      <td>$400</td>
-      <td>$400</td>
-    </tr>
-    <tr>
-      <td>$600</td>
-      <td>$600</td>
-      <td>$600</td>
-      <td>$600</td>
-      <td>$600</td>
-      <td>$600</td>
-    </tr>
-    <tr>
-      <td>$800</td>
-      <td>$800</td>
-      <td>$800</td>
-      <td>$800</td>
-      <td>$800</td>
-      <td>$800</td>
-    </tr>
-    <tr>
-      <td>$1,000</td>
-      <td>$1,000</td>
-      <td>$1,000</td>
-      <td>$1,000</td>
-      <td>$1,000</td>
-      <td>$1,000</td>
-    </tr>
-  </body>
-    {% endblock %}
+<h1>Jeopardy!</h1>
+<h2>Enter your name:</h2><input>
+</br>
+<form action="/game" method="get">
+  <br/>
+<button class="btn btn-default" type="submit" value="Play!">Play!</button>
+</form>
+</body>
+{% endblock %}
   </html>
