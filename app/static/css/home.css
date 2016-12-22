@@ -15,8 +15,14 @@ h1 {
   font-size: 500%;
   font-family: jeopardy;
 }
+a {
+  text-decoration: none;
+  color: #ffd700;
+}
 
 th {
+  text-align: center;
+  color: white;
   font-size: 150%;
 }
 
@@ -25,6 +31,10 @@ td {
   color: #ffd700;
   font-size: 250%;
   font-weight: bolder;
+}
+
+body {
+  background-color: #060CE9;
 }
 
 table {
